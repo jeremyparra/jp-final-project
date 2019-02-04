@@ -1,0 +1,10 @@
+#comBox{
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #f6f6f6;   
+}

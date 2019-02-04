@@ -1,0 +1,32 @@
+#offerHead {
+    margin-bottom: 35px;
+    color: #4B9CD3;
+    font-weight: bold;
+}
+
+#offerBody {
+    color: #767676;
+}
+
+#offerBox{
+    max-width: 1000px;
+    width: 95%;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: 5px dotted #e1e1e1;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+
+}
+
+#offerImage {
+    border: 1px solid #4B9CD3; 
+    -webkit-filter: drop-shadow(5px 5px 5px #767676);
+    filter: drop-shadow(5px 5px 5px #767676);
+}
+
+.btn {
+    background-color: #4B9CD3;
+    margin-top: 35px;
+}

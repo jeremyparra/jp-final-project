@@ -1,0 +1,45 @@
+#aboutBox{
+    font-family: 'Roboto', sans-serif;    
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+#aboutTitle {
+    margin: 15px 0 15px 0;
+    color: #4B9CD3;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ownerPhoto {
+    float: left;
+    margin: 20px;
+    border: 1px solid #4B9CD3; 
+    -webkit-filter: drop-shadow(5px 5px 5px #767676);
+    filter: drop-shadow(5px 5px 5px #767676);
+}
+
+#ownerBio{
+    color: #767676;
+    margin: 15px;
+    text-align: justify;
+}
+
+#videoTitle{
+    margin: 15px 0 15px 0;
+    color: #4B9CD3;
+    font-weight: bold;
+    text-align: center;
+}
+
+#youTube{
+    margin: 20px auto;
+    border: 1px solid #4B9CD3; 
+    -webkit-filter: drop-shadow(5px 5px 5px #767676);
+    filter: drop-shadow(5px 5px 5px #767676);
+}

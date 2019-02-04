@@ -1,0 +1,50 @@
+#quoteBox{
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #f6f6f6;  
+}
+
+#quoteTitle {
+    margin: 15px 0 15px 0;
+    color: #4B9CD3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.otro-blockquote{
+  border-radius: 10px;
+    font-size: 14px;
+    margin:20px auto;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border: 1px solid #e1e1e1;
+
+    border-left:8px solid #4b9cd3;
+    line-height:1.6;
+    position: relative;
+    background: white;
+  }
+  
+  .otro-blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#4B9CD3;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  .otro-blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }

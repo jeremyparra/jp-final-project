@@ -1,0 +1,67 @@
+#resBox{
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #f6f6f6;   
+}
+
+#smallDisplay {
+    max-width: 500px;
+    height: 200px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#imageDisplay {
+    max-width: 500px;
+    height: 325px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#serviceImage{
+    display: block;
+    max-width: 500px;
+    height: 325px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+}
+
+.unorderedList{
+    color: #767676;
+}
+
+.myParagraph{
+    color: #767676;
+    text-align: justify;
+    font-size: 17px;
+}
+
+#listHead{
+    color: #4B9CD3;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#blueTag {
+    color: #4B9CD3;
+    font-weight: bold;    
+}

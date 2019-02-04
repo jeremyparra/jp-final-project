@@ -1,0 +1,58 @@
+
+
+
+/* ### "body" ### */
+
+
+#myHeader{
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #f6f6f6;  
+}
+
+#header{
+    height: 175px;
+    border-radius: 30px;
+}
+
+
+
+/* ### headlines and fonts ### */
+
+h1 {
+    color: #4B9CD3;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#callUs {
+    padding-top: 40px;
+    color: #767676;
+}
+
+h1,
+#callUs {
+    padding-left: 150px;
+    text-align: center;
+}
+
+
+
+/* ### logo ### */
+
+img {
+    -webkit-filter: drop-shadow(2px 2px 2px #E1E1E1);
+    filter: drop-shadow(2px 2px 2px #E1E1E1);
+}
+
+#header-logo{
+    width: 365px;
+    padding: 15px;
+}
+
+
