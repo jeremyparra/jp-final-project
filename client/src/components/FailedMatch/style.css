@@ -1,0 +1,14 @@
+#messageBox{
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 20px;
+    font-weight: bolder;
+    color: #4B9CD3;
+    background-color: #f6f6f6;  
+    text-align: center; 
+}

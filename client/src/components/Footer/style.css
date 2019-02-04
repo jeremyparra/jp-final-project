@@ -1,0 +1,11 @@
+#myFooter{
+    font-family: 'Roboto', sans-serif;    
+    max-width: 1000px;
+    width: 95%;
+    margin: 35px auto;
+    padding: 10px;
+    color: #767676;
+    font-size: 10px;
+    text-align: right;
+}
+

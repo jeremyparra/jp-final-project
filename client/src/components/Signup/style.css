@@ -1,0 +1,11 @@
+#signupBox{
+    font-family: 'Roboto', sans-serif;    
+    max-width: 500px;
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    color: #767676;
+    background-color: white;
+}

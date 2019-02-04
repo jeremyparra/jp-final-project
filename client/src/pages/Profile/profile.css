@@ -1,0 +1,22 @@
+#myContainer{
+    font-family: 'Roboto', sans-serif;   
+    text-align: center; 
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4B9CD3;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+#message{
+    color: #4B9CD3;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.login {
+    margin: 10px;
+}
