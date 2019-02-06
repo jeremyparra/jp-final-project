@@ -30,3 +30,25 @@
     background-color: #4B9CD3;
     margin-top: 35px;
 }
+
+@media screen and (max-width: 768px) {
+    #offerBody {
+      font-size: 85%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    #offerHead{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #offerImage {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #offerImage {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+

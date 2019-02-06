@@ -24,7 +24,7 @@ function About() {
                 <div className="col-md-6">
                     <h5 id="videoTitle">Watch the Video Below to See More About What We Can Offer</h5>
                     <iframe title="The Denver Window Cleaning Company LLC Service Video" id="youTube" width="380" height="300" src="https://www.youtube.com/embed/c4oTCw33U-4" 
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
             </div>
         </div>

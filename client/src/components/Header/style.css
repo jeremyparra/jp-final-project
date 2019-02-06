@@ -56,3 +56,38 @@ img {
 }
 
 
+@media screen and (max-width: 375px) {
+    #header-logo {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    #myHeader {
+        height: 300px;
+    }
+    h1 {
+        font-size: 160%;
+        padding-left: 0;
+    }
+    #callUs{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #header-logo {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    #myHeader {
+        height: 300px;
+    }
+    h1 {
+        font-size: 160%;
+        padding-left: 0;
+    }
+    #callUs{
+        padding-left: 0;
+    }
+}
+
+
+
+

@@ -125,3 +125,22 @@
   .Aligner-item--bottom {
     align-self: flex-end;
   }
+
+@media screen and (max-width: 375px) {
+    #contactInfo {
+		margin-left: 16px;    
+	}
+}
+
+@media screen and (max-width: 375px) {
+    #contactInfo {
+		margin-left: 10px;    
+	}
+}
+
+@media screen and (max-width: 320px) {
+    #contactInfo {
+		margin-left: 4px; 
+		width: 275px;   
+	}
+}

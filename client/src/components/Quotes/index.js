@@ -7,7 +7,7 @@ function Quotes() {
             <h3 id="quoteTitle">What Our Customers Have to Say About Us!</h3>
             <div className="row">
                 <div className="col-md">
-                    <blockquote class="otro-blockquote">
+                    <blockquote className="otro-blockquote">
                         Jeremy was very professional, clean, and efficient.
                         We would hire him again to clean our interior and
                         exterior windows (of our home).
@@ -15,7 +15,7 @@ function Quotes() {
                     </blockquote>
                 </div>
                 <div className="col-md">
-                    <blockquote class="otro-blockquote">
+                    <blockquote className="otro-blockquote">
                         Jeremy was extremely professional and did an 
                         excellent job on our windows. He communicated 
                         each step along the way, to ensure it was the 
@@ -26,7 +26,7 @@ function Quotes() {
                     </blockquote>
                 </div>
                 <div className="col-md">
-                    <blockquote class="otro-blockquote">
+                    <blockquote className="otro-blockquote">
                         Jeremy did an excellent job on all windows and even replaced 
                         some of the screens that had holes in them . Excellent 
                         service with a very fair price. Would highly recommend 

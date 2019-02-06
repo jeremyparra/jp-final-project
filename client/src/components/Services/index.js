@@ -6,7 +6,7 @@ function Services() {
         <div id="serviceBox">
             <h2 id="serviceTitle">Services</h2>
             <div className="row">
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <div id="myCard">
                         <h5 id="cardTitle">Metro Denver's Premier Residential Window Cleaning Service</h5>
                         <div className="card-body">
@@ -20,7 +20,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <div id="myCard">
                         <h5 id="cardTitle">Window Cleaning<br />Solutions for Commercial Properties</h5>
                         <div className="card-body">
@@ -33,11 +33,11 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <div id="myCard">
                         <h5 id="cardTitle">We Do <br />More Than Clean <br />Windows</h5>
                         <div className="card-body">
-                            <img alt="Other Services" src="https://dummyimage.com/485x330/13294b/4B9CD3.png&text=Service+Item" className="card-img-top"/>
+                            <img alt="Other Services" src="https://dummyimage.com/485x330/13294b/4B9CD3.png&text=Service+Item" className="card-img-top" id="otherImage" />
                             <p id="cardText">
                                 Click here to see about screen repair,
                                 solar panel cleaning, pressure washing,

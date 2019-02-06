@@ -43,3 +43,23 @@
     -webkit-filter: drop-shadow(5px 5px 5px #767676);
     filter: drop-shadow(5px 5px 5px #767676);
 }
+
+@media screen and (max-width: 1024px) {
+    #youTube {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #youTube {
+        height: 200px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #youTube {
+        position: relative;
+        left: 8px;
+    }
+}

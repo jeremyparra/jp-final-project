@@ -10,6 +10,10 @@ const flash = require('connect-flash');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
+require('dotenv').config()
+const u = process.env.UNAME;
+const p = process.env.PASS
+
 // Body Parser Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -36,8 +40,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 app.post('/send', (req, res) => {
-    const u = "f58ccd74193575e5c5d46592046491bc";
-    const p = "045ec9af9795b749616834e835c70c94";
+
     const output = `
       <p>You have a new contact request</p>
       <h3>Contact Details</h3>
@@ -82,7 +85,6 @@ app.post('/send', (req, res) => {
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-        res.render("Contact", { message: 'Email has been sent' });
     });
     res.redirect('/');
 });

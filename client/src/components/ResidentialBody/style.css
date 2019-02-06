@@ -65,3 +65,23 @@
     color: #4B9CD3;
     font-weight: bold;    
 }
+
+@media screen and (max-width: 768px) {
+    .myParagraph {
+        font-size: 98%;
+    }
+    li {
+        font-size: 98%
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .myParagraph {
+        font-size: 90%;
+    }
+    li {
+        font-size: 80%
+    }
+}
+
+

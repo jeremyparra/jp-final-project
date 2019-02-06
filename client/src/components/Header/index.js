@@ -6,7 +6,7 @@ function Header() {
     <div id="myHeader">
       <div className="row" id="header">
         <div className="col-md-4">
-          <img alt="" src="/images/dwc-logo.png" id="header-logo" />
+          <a href="/"><img alt="logo" src="/images/dwc-logo.png" id="header-logo" /></a>
         </div>
         <div className="col-md">
           <h5 id="callUs">CALL TODAY FOR A FREE QUOTE:</h5>

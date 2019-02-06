@@ -36,7 +36,7 @@ function CommercialBody() {
                                 small business needs. Click below to find out more about what 
                                 we can offer your commercial property.
                             </p>
-                            <a href="commercial" className="btn btn-primary" id="otherBtn">Commercial Window Cleaning</a>
+                            <a href="other" className="btn btn-primary" id="otherBtn">Other Services</a>
                             </div>
                         </div>
                     </div>

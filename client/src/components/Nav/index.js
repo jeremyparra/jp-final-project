@@ -5,8 +5,8 @@ import "./style.css";
 function Nav() {
     return (
         <div id="myNav">
-            <ul class="nav">
-                <li class="nav-item">
+            <ul className="nav">
+                <li className="nav-item">
                     <Link
                         to="/"
                         className={
@@ -18,7 +18,7 @@ function Nav() {
                         Home
                 </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link
                         to="/residential"
                         className={
@@ -30,7 +30,7 @@ function Nav() {
                         Residential
                 </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link
                         to="/commercial"
                         className={
@@ -42,7 +42,7 @@ function Nav() {
                         Commercial
                 </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link
                         to="/other"
                         className={
@@ -54,7 +54,7 @@ function Nav() {
                         Other Services
                 </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link
                         to="/contact"
                         className={
