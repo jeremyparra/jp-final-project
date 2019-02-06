@@ -7,6 +7,12 @@ const session = require("express-session");
 const passport = require("passport");
 const logger = require("morgan");
 const flash = require('connect-flash');
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
+
+// Body Parser Middleware
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -29,10 +35,62 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactauth", { useNewUrlParser: true }, function(err) {
+app.post('/send', (req, res) => {
+    const u = "f58ccd74193575e5c5d46592046491bc";
+    const p = "045ec9af9795b749616834e835c70c94";
+    const output = `
+      <p>You have a new contact request</p>
+      <h3>Contact Details</h3>
+      <ul>  
+        <li>Name: ${req.body.field1}</li>
+        <li>Email: ${req.body.field2}</li>
+        <li>Phone: ${req.body.field3}</li>
+        <li>Subject: ${req.body.field4}</li>
+      </ul>
+      <h3>Message</h3>
+      <p>${req.body.field5}</p>
+    `;
+
+    // create reusable transporter object using the default SMTP transport
+    let transporter = nodemailer.createTransport({
+        host: 'in-v3.mailjet.com',
+        port: 587,
+        secure: false, // true for 465, false for other ports
+        auth: {
+            user: u, // generated ethereal user
+            pass: p  // generated ethereal password
+        },
+        tls: {
+            rejectUnauthorized: false
+        }
+    });
+
+    // setup email data with unicode symbols
+    let mailOptions = {
+        from: '"Web Contact Request Submission" <jeremy-test@mail.com>', // sender address
+        to: 'jeremy@denverwindowcleaningpro.com', // list of receivers
+        subject: 'New Requst for Contact From Website', // Subject line
+        text: 'Hello world?', // plain text body
+        html: output // html body
+    };
+
+    // send mail with defined transport object
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.log(error);
+        }
+        console.log('Message sent: %s', info.messageId);
+        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+
+        res.render("Contact", { message: 'Email has been sent' });
+    });
+    res.redirect('/');
+});
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/finalProject", { useNewUrlParser: true }, function (err) {
     if (err) throw err;
     console.log(`🐆  mongoose connection successful 🐆`.yellow);
-    app.listen(PORT, (err)=> {
+    app.listen(PORT, (err) => {
         if (err) throw err;
         console.log(`🌎  connected on port ${PORT} 🌍`.cyan)
     });

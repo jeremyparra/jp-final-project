@@ -1,7 +1,7 @@
 {
-  "name": "react-auth",
+  "name": "jp-final-project",
   "version": "1.0.0",
-  "description": "react app with passport auth",
+  "description": "final full-stack(MERN) project",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -14,18 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evanejtucker/react-auth.git"
+    "url": "git+https://github.com/jeremyparra/jp-final-project"
   },
   "keywords": [],
-  "author": "Evan E J Tucker",
+  "author": "Jeremy Parra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evanejtucker/react-auth/issues"
+    "url": "https://github.com/jeremyparra/jp-final-project/issues"
   },
-  "homepage": "https://github.com/evanejtucker/react-auth#readme",
+  "homepage": "https://github.com/jeremyparra/jp-final-project#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
     "colors": "^1.3.3",
     "connect-flash": "^0.1.1",
     "express": "^4.16.4",
@@ -33,12 +34,12 @@
     "if-env": "^1.0.4",
     "mongoose": "^5.4.5",
     "morgan": "^1.9.1",
+    "nodemailer": "^5.1.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "colors": "^1.3.3",
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.9"
   }
