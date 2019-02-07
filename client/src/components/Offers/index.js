@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Offers() {
@@ -16,7 +17,7 @@ function Offers() {
                         15% off all of your window cleaning needs now through the end of May 2019.
                         Contact us today!
                     </p>
-                    <a href="contact" className="btn btn-primary">Contact Us Today</a>             
+                    <Link to="/contact"><button className="btn btn-primary">Contact Us Today</button></Link>             
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
+
 
 function Services() {
     return (
@@ -16,7 +18,7 @@ function Services() {
                                 The Denver Window Cleaning Company LLC can provide
                                 a list of services for your home. Click to learn more.
                             </p>
-                            <a href="residential" className="btn btn-primary" id="serviceBtn1">Residential Window Cleaning</a>
+                            <Link to="/residential"><button className="btn btn-primary" id="serviceBtn1">Residential Window Cleaning</button></Link>
                         </div>
                     </div>
                 </div>
@@ -29,7 +31,7 @@ function Services() {
                                 We offer window cleaning services to a variety of businesses
                                 and commercial storefronts. Click to learn more.
                             </p>
-                            <a href="commercial" className="btn btn-primary" id="serviceBtn2">Commercial Window Cleaning</a>
+                            <Link to="/commercial"><button className="btn btn-primary" id="serviceBtn2">Commercial Window Cleaning</button></Link> 
                         </div>
                     </div>
                 </div>
@@ -43,7 +45,7 @@ function Services() {
                                 solar panel cleaning, pressure washing,
                                 and rain gutter cleaning.
                             </p>
-                            <a href="other" className="btn btn-primary" id="serviceBtn3">Other Services</a>
+                            <Link to="/other"><button className="btn btn-primary" id="serviceBtn3">Other Services</button></Link>
                         </div>
                     </div>
                 </div>

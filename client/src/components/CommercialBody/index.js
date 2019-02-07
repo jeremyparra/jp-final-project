@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function CommercialBody() {
     return (
@@ -36,7 +37,7 @@ function CommercialBody() {
                                 small business needs. Click below to find out more about what 
                                 we can offer your commercial property.
                             </p>
-                            <a href="other" className="btn btn-primary" id="otherBtn">Other Services</a>
+                            <Link to="/other"><button className="btn btn-primary" id="otherBtn">Other Services</button></Link>             
                             </div>
                         </div>
                     </div>

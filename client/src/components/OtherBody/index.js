@@ -33,7 +33,6 @@ function OtherBody() {
                             <p className="myParagraph">
                                 <span id="blueTag">Fill In Later</span> Lorem ipsum dolor sit amet, at has odio dicat referrentur. Eam quot simul concludaturque ea, aeque theophrastus pri ei. Mea ne agam eros, scripta epicurei inciderint ad vim. Pri noluisse indoctum at. Mea id ridens aliquid. Admodum minimum ei nec, in quaeque sensibus splendide nec.
                             </p>
-                            <a href="commercial" className="btn btn-primary" id="otherBtn">Commercial Window Cleaning</a>
                             </div>
                         </div>
                     </div>
