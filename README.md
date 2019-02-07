@@ -21,7 +21,7 @@ The current business URL is : www.denverwindowcleaningpro.com, though this site 
 
 <br>
 
-[Watch the presentation video here](https://jp-final-project.herokuapp.com/)
+[Watch the presentation video here](https://drive.google.com/file/d/1v_yxyMBfO2Bb6QRfRyCNwIvNNJ2tP-5R/view)
 
 [Live app on Heroku](https://jp-final-project.herokuapp.com/)
 
