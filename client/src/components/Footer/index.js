@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
@@ -9,7 +11,7 @@ function Footer() {
             303-531-5729<br />                    
             jeremy@denverwindowcleaningpro.com</strong><br />
             Copyright&copy; 2019 Jeremy Parra<br />                 
-            <a href="login" >Admin Login</a>
+            <Link to="/login"><a>Admin Login</a></Link>
         </div>
     );
 }
