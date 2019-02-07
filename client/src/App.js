@@ -28,6 +28,8 @@ function App() {
             <Route exact path="/login" component={() => <Auth action="login" />}  />
             <Route exact path="/signup" component={() => <Auth action="signup" />}  />
             <Route exact path="/profile" component={Profile} />
+            <Route exact path="/NoMatch" component={NoMatch} />
+
             <Route component={NoMatch} />
           </Switch>
         </>

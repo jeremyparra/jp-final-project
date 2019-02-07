@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import API from "./utils/API";
+import {browserHistory} from "react-router";
 
 const UserContext = React.createContext();
 
@@ -16,6 +17,7 @@ class UserProvider extends Component {
         user: null,
         failureMessage: null
     }
+    
 
     componentDidMount() {
         this.isLoggedIn();
@@ -42,11 +44,13 @@ class UserProvider extends Component {
                         user: user.data.user
                     });
                     console.log("log in successful");
-                    window.location.href = '/profile';
+                    browserHistory.push("/path-to-link");                   
+                    // window.location.href = '/profile';
                 } else {
                     console.log("Something went wrong :(")
                     console.log(user);
-                    window.location.href = '/NoMatch';
+                    browserHistory.push("/NoMatch");
+                    // window.location.href = '/NoMatch';
                 }
             });
         }
@@ -68,7 +72,8 @@ class UserProvider extends Component {
                         user: user.data.user
                     });
                     console.log("log in successful");
-                    window.location.href = '/profile';
+                    browserHistory.push("/path-to-link");                   
+                    // window.location.href = '/profile';
                 } else {
                     console.log("something went wrong :(")
                     console.log(user.data);
